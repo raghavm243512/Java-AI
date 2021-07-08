@@ -12,6 +12,7 @@ public class RandomHashSet<T> implements Serializable {
 
 	public RandomHashSet() {
 		set = new HashSet<>();
+		data = new ArrayList<>();
 	}
 
 	public boolean contains(T o) {
